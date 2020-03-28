@@ -1,19 +1,9 @@
 ---
 title: About
 description: My Biography
-date: 2019-02-28
+date: 2020-03-27
 ---
 
-Hi my name is Jane Doe.
-I like to write in
-[Julia](https://julialang.org/)
-like:
+Hello,
 
-```julia
-println("Hello world")
-```
-
-
-It's possible to process video motion data > 30 frames/sec with the Raspberry Pi Zero, using the GPU like:
-
-{{< youtube GdZNIYrxxik >}}
+I've recently discovered that I got my first personal webspace in 2005. This is now 15 years ago. Since then I host at the same company and I've spent almost 500 Euros on it. But most of the time it's rather broken or empty than functioning and put to purpose. You see my latest attempt to change this fate.

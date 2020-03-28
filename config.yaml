@@ -1,6 +1,6 @@
 baseURL: 'https://username.github.io/'
-title: Hugo-Flex Demo Site
-author: Jane Doe
+title: Felix Idelberger
+author: Felix Idelberger
 languageCode: en-us
 pygmentsCodeFences: true
 enableRobotsTXT: true
@@ -12,9 +12,9 @@ permalinks:
   pages: '/:filename/'
 
 params:
-  color: black
+  color: darkgreen
   width: 42rem
-  description: Jane Doe's webpages
+  description: Felix Idelberger's webpages
   footer: Except where otherwise noted, content on this site is licensed under a
     a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">
     Creative Commons Attribution 4.0 International License</a>.
@@ -44,15 +44,18 @@ params:
 
 menu:
   nav:
+    - name: Projects
+      url: projects/
+      Weight: 1
     - name: About
       url: about/
-      weight: 1
+      weight: 3
     - name: Blog
       url: posts/
       weight: 2
-    - name: Tags
-      url: tags/
-      weight: 3
-    - name: Categories
-      url: categories/
-      weight: 4
+    #- name: Tags
+    #  url: tags/
+    #  weight: 3
+    #- name: Categories
+    #  url: categories/
+    #  weight: 4
