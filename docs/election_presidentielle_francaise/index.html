@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  
+    <meta name="description" content="Basic Setup I had used R in the past to collect tweets, but this technique has its limitations, when one wants to collect a lot of data and do so 24/7. In my opinion there is no way around Python in this case and in the best case a server is at hand as well. It is the first time I am using this combination, I did some research to find a setup that is fast, since I was expecting a lot of tweets around the election days.">
+  
+
+
+
+  <meta itemprop="name" content="Élection Présidentielle Française 2017">
+<meta itemprop="description" content="Basic Setup I had used R in the past to collect tweets, but this technique has its limitations, when one wants to collect a lot of data and do so 24/7. In my opinion there is no way around Python in this case and in the best case a server is at hand as well. It is the first time I am using this combination, I did some research to find a setup that is fast, since I was expecting a lot of tweets around the election days.">
+<meta itemprop="datePublished" content="2017-04-29T17:03:11&#43;00:00" />
+<meta itemprop="dateModified" content="2017-04-29T17:03:11&#43;00:00" />
+<meta itemprop="wordCount" content="211">
+
+
+
+<meta itemprop="keywords" content="" />
+
+
+
+  <meta property="og:title" content="Élection Présidentielle Française 2017" />
+<meta property="og:description" content="Basic Setup I had used R in the past to collect tweets, but this technique has its limitations, when one wants to collect a lot of data and do so 24/7. In my opinion there is no way around Python in this case and in the best case a server is at hand as well. It is the first time I am using this combination, I did some research to find a setup that is fast, since I was expecting a lot of tweets around the election days." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://username.github.io/election_presidentielle_francaise/" />
+<meta property="article:published_time" content="2017-04-29T17:03:11+00:00" />
+<meta property="article:modified_time" content="2017-04-29T17:03:11+00:00" />
+
+
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Élection Présidentielle Française 2017"/>
+<meta name="twitter:description" content="Basic Setup I had used R in the past to collect tweets, but this technique has its limitations, when one wants to collect a lot of data and do so 24/7. In my opinion there is no way around Python in this case and in the best case a server is at hand as well. It is the first time I am using this combination, I did some research to find a setup that is fast, since I was expecting a lot of tweets around the election days."/>
+
+
+
+<meta name="generator" content="Hugo 0.68.3" />
+  <title>Élection Présidentielle Française 2017 | Felix Idelberger</title>
+  <link rel="canonical" href="/election_presidentielle_francaise/">
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+  
+  <link rel="stylesheet" href="/css/base.min.17e99a5c509ae9426429ac462ce08ec2af063f7a3d9f6a4f83fbfb1887490eb0.css" integrity="sha256-F&#43;maXFCa6UJkKaxGLOCOwq8GP3o9n2pPg/v7GIdJDrA=" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+  <nav class="u-background">
+  <div class="u-wrapper">
+    <ul class="Banner">
+      <li class="Banner-item Banner-item--title">
+        <a class="Banner-link u-clickable" href="/">Felix Idelberger</a>
+      </li>
+      
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/projects/">Projects</a>
+        </li>
+      
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/posts/">Blog</a>
+        </li>
+      
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/about/">About</a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+  <main>
+    <div class="u-wrapper">
+      <div class="u-padding">
+        
+
+  <article>
+    <header class="Heading">
+  <h2 class="Heading-title">
+    <a class="Heading-link u-clickable" href="/election_presidentielle_francaise/" rel="bookmark">Élection Présidentielle Française 2017</a>
+  </h2>
+  
+    <time datetime="2017-04-29T17:03:11Z">29 April, 2017</time>
+  
+</header>
+    <h1 id="basic-setup">Basic Setup</h1>
+<p>I had used R in the past to collect tweets, but this technique has its limitations, when one wants to collect a lot of data and do so 24/7. In my opinion there is no way around Python in this case and in the best case a server is at hand as well. It is the first time I am using this combination, I did some research to find a setup that is fast, since I was expecting a lot of tweets around the election days. My setup is based on this great <a href="https://github.com/dataquestio/twitter-scrape">twitter scraper repo</a>. In the first days I only had a few words to track specified, but adjusted my list based on a simple preliminary analysis of collected data.</p>
+<p>In the following sub pages I present some basic analysis of collected tweets in the light of the presidential elections in France.</p>
+<h1 id="track-terms">Track terms</h1>
+<p>these are the terms for which Twitter’s API was looking in tweets to forward matches.</p>
+<ul>
+<li>“presidentielle2017”, “presidentielles2017”, “presidentielle”, “presidentielles”, “#France2017”, “#Frenchelections”</li>
+<li>“Fillon”, “Fillon2017”, “projetfillon”, “jevotefillon”, “fillongate”,”francoisfillon”</li>
+<li>“Hamot”, “Hamot2017”,</li>
+<li>“LePen”, “Le Pen”, “marielepen”, “marine2017”, “#mlp”,</li>
+<li>“Macron”, “enmarche”, “macron2017”, “jevotemacron”, “emmanuelmacron”</li>
+<li>“Melenchon”, “jlm2017”, “jlmelenchon”,</li>
+<li>“Arthaud”,</li>
+<li>“Poutou”,</li>
+<li>“Asselineau”, “Asselineau2017”,</li>
+<li>“Dupont-Aignan”, “DupontAignan”,</li>
+<li>“Lassalle”,</li>
+<li>“Cheminade”</li>
+</ul>
+<p>In total my dataset contains 8,783,948 tweets.</p>
+<h1 id="analysis">Analysis</h1>
+<ul>
+<li><a href="https://username.github.io/number_tweets_per_day/">Number of tweets per day</a></li>
+</ul>
+<h1 id="heading"></h1>
+
+    
+
+
+  
+
+  
+
+
+
+
+
+    
+  
+
+  </article>
+
+
+      </div>
+    </div>
+  </main>
+  
+  <footer class="Footer">
+    <div class="u-wrapper">
+      <div class="u-padding">
+        Except where otherwise noted, content on this site is licensed under a a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license"> Creative Commons Attribution 4.0 International License</a>.
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
