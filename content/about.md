@@ -6,8 +6,8 @@ date: 2020-03-27
 
 Hello visitor,
 
-I've recently discovered that I got my first personal webspace in 2005. 
-This is now 15 years ago. Since then I host at the same company and 
+I've recently discovered that I created my first personal webspace in 2005. 
+This is now 15 years ago. In all these years, I hosted my site at the same company and 
 I've spent almost 500 Euros on it. But most of the time it's rather 
 broken or empty than functioning and put to purpose. You see my latest 
 attempt to change this fate.
@@ -19,7 +19,7 @@ showed me that you can teach yourself a lot. As long as you know where
 to find the knowledge and as long as it is accessible. This ubiquity of 
 knowledge can be overwhelming, people find it hard to find the right 
 information, to recognize "truthful" information or to link information 
-from various source together.
+from various sources together.
 
 NLP, time series and survival analysis are methodology fields in which 
 I've acquired expertise. I also enjoy visualizing data, fiddling and

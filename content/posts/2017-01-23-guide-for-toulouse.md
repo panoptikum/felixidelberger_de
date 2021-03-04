@@ -6,6 +6,13 @@ date: 2017-01-23T15:32:09+00:00
 url: /guide-for-toulouse/
 categories:
   - Data Science
+  - R
+
+tags:
+  - shiny
+  - R
+  - leaflet
+  - dashboard
 
 ---
 In my first semester at the Toulouse School of Economics I took the course &#8220;Statistical Software for Data Scientists&#8221;. The professor gave us the assignment to apply the techniques for data collection, data cleansing and data visuzaliation on some data. I came up with the idea to create a basic guide for new people in Toulouse. The guide offers people the oppportunity to look for cinemas, parks and other places of their interest. The guide is also online [available][1].

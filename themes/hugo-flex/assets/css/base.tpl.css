@@ -47,6 +47,15 @@ code {
 
 .Banner-item--title {
   flex-grow: 1;
+  background: url(static/flat_cap.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.Banner-item--logo {
+  flex-grow: 1;
+  width: 20%;
+  height: auto;
 }
 
 .Banner-link {

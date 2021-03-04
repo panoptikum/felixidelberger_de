@@ -1,11 +1,10 @@
-baseURL: 'https://username.github.io/'
 title: Felix Idelberger
 author: Felix Idelberger
 languageCode: en-us
 pygmentsCodeFences: true
 enableRobotsTXT: true
 theme: hugo-flex
-publishDir: docs
+publishDir: public
 
 permalinks:
   posts: '/:filename/'
@@ -44,9 +43,6 @@ params:
 
 menu:
   nav:
-    - name: Projects
-      url: projects/
-      Weight: 1
     - name: About
       url: about/
       weight: 3

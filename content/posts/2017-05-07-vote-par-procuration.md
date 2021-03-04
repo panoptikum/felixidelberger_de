@@ -5,13 +5,13 @@ type: post
 date: 2017-05-07T10:38:39+00:00
 url: /vote-par-procuration/
 categories:
-  - Frankreich
   - Politics
 tags:
   - Elections
   - Politics
   - Power of Attorney
   - Voting
+  - France
 
 ---
 With this year&#8217;s presidential election in France I have stumbled on an interesting feature of the french electoral system, _to vote by granting someone else power of attorney_. This way of voting was [introduced in 1975][1] and to vote by mail was abolished at the same time. At first, it is striking to me that this electoral possibility lifts the secret of your vote. By a matter of fact I knew through a friend how someone else is going to vote in the first round as that person was her trustee. I thought secret voting is a requirement in all countries, but it seems that not [every electoral framework][2] obligatory demands this.
