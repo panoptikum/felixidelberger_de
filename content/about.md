@@ -28,4 +28,4 @@ spirit of open knowledge, I've created this website to give back
 to all the communities where I've gained a lot of my knowledge and still
 do.
 
-You can reach me via <span style="unicode-bidi:bidi-override;direction:rtl;">gro.xoblliam@brofeirb</span> for any type of inquiry.
+You can reach me via <span style="unicode-bidi:bidi-override;direction:rtl;">gro.xoblliam@brofeirb</span> for any type of inquiry. You can also find me on [LinkedIn](https://www.linkedin.com/in/idelberger-felix/) and [GitHub](https://github.com/panoptikum).
