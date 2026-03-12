@@ -28,4 +28,4 @@ spirit of open knowledge, I've created this website to give back
 to all the communities where I've gained a lot of my knowledge and still
 do.
 
-You find me on [Twitter](https://twitter.com/Sukutuu) for any type of inquiry.
+You can reach me via <script>const u='hello',d='felixidelberger.de';document.write('<a href="mailto:'+u+'@'+d+'">'+u+'@'+d+'</a>');</script> for any type of inquiry.
