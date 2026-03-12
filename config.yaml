@@ -6,6 +6,11 @@ enableRobotsTXT: true
 theme: hugo-flex
 publishDir: public
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 permalinks:
   posts: '/:filename/'
   pages: '/:filename/'
